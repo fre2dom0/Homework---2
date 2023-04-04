@@ -1,0 +1,418 @@
+.slider{
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    z-index: 1;
+}
+.slider .image{
+    width: 100%;
+    height: 700px;
+    background-color: rebeccapurple;
+}
+
+.color{
+    background-color: rgb(100, 100, 100);
+}
+
+.image1{
+    background-image: url("https://preview.colorlib.com/theme/engineers/images/hero_1.jpg.webp");
+    opacity: 0.8;
+}
+
+.image .row{
+    height: 100%;
+}
+
+.cButton button{
+    padding: 20px 25px;
+    font-size: 22px;
+}
+
+.cButton button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+.cText h3{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.cText h3 .bold{
+    font-weight: 700;
+}
+
+/*WHAT WE DO*/
+
+.whatwedo{
+    margin-top: 800px;
+    padding: 70px 0px;
+}
+
+.whatwedo .whatwe h5{
+    color: orangered;
+}
+
+.whatwedo .whatwe .p1{
+    margin: 0 0 -15px 0;
+    font-size: 27px;
+    color: black;
+}
+
+.whatwedo .whatwe .p1 .bold{
+    font-weight: 900;
+}
+
+.whatwedo .whatwe .p2{
+    margin: 0;
+    font-size: 29px;
+    color: black;
+}
+
+.qualities{
+    padding: 100px 180px;
+}
+
+.quality{
+    padding: 0 30px;
+}
+
+.quality h4{
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.quality p{
+    font-size: 16px;
+}
+
+/*CHOOSE US*/
+
+.chooseus{
+    background-color: rgb(13, 13, 46);
+}
+
+.chooseus .cImg{
+    text-align: center;
+}
+
+.chooseus .cImg img{
+    position: relative;
+    width: 550px;
+    margin: 0;
+    top: -60px;
+}
+
+.cChoose{
+    padding: 0 80px 0 0;
+}
+
+.cChoose h5{
+    color: orangered;
+}
+
+.cChoose h4{
+    font-size: 29px;
+    color: white;
+}
+
+.cChoose h4 .bold{
+    font-weight: 800;
+}
+
+.cChoose p{
+    color: beige;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.icons .row{
+    margin: 25px 0;
+}
+
+
+.icons h5{
+    color: white;
+    margin: 0;
+}
+
+.icons p{
+    margin: 0;
+    color: beige;
+}
+
+/*GET A QUOTE*/
+
+.boxc{
+    padding: 0 150px 1px 0;
+}
+
+.getaquote{
+    margin: 80px 0 0 0;
+}
+
+.getaquote .img-fluidd{
+    height: 700px;
+}
+
+.getaquote .box{
+    width: 100%;
+    background-color: black;
+    padding: 80px 100px;
+    margin-left: 50px;
+    height: 600px;
+}
+
+.box h5{
+    color:  orangered;
+}
+
+.box h4{
+    color: white;
+}
+
+.box form{
+    margin-top: 40px;
+}
+
+.box form input{
+    padding: 5px 0px;
+    width: 90%;
+    margin: 10px 20px 10px 0;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+
+.box form input::placeholder{
+    color: white;
+}
+
+.box form textarea::placeholder{
+    color: white;
+}
+
+.box form textarea{
+    margin-top: 10px;
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.box form button{
+    padding: 6px 0;
+    width: 90%;
+    color: white;
+    background-color: orangered;
+}
+
+.box form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.box form .row2{
+    height: 100%;
+}
+
+/*OUR PROJECTS*/
+
+.ourprojects .color{
+    width: 100%;
+    height: 640px;
+    background-color: rgb(13, 13, 46);
+}
+
+.ourprojects .all{
+    padding: 0 150px 50px 150px; 
+}
+
+.textRow{
+    padding: 0 0 50px 0;
+}
+
+.all h5{
+    color: orangered;
+    margin-top: 100px;
+    font-size: 23px;
+}
+
+.all h4{
+    font-size: 28px;
+    color: white;
+}
+.all h4 .bold{
+    font-weight: 800;
+}
+
+
+.all .i{
+    height: 500px;
+    width: 31%;
+    position: relative;
+    margin: 0 20px;
+    overflow: hidden;
+    background-color: rgb(50, 50, 50);
+}
+
+.all .i:first-child{
+    margin: 0;
+}
+
+.all .i:last-child{
+    margin: 0;
+}
+
+.ourprojects img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.3s linear; 
+}
+
+.ourprojects img:hover{
+    transform: scale(1.2);
+    background-color: black;
+    opacity: 0.2;
+}
+
+.ourprojects .color{
+    position:relative;
+}
+
+.ourprojects button{
+    color: rgb(68, 68, 68);
+    padding: 5px 10px;
+    font-size: 19px;
+    z-index: 5;
+}
+
+.ourprojects .button1{
+    position: absolute;
+    top: 240px;
+}
+
+.ourprojects .button2{
+    position: absolute;
+    top: 240px;
+    right: 0;
+}
+
+.buttont{
+    margin-top: 150px;
+}
+
+.buttont button{
+    width: 30px;
+    background-color: transparent;
+    font-size: 60px;
+    padding: 0;
+}
+
+.buttont .active{
+    color: orangered;
+}
+
+.buttont .noactive{
+    color: grey;
+}
+
+/*whatpeoplesay*/
+
+.whatpeoplesay{
+    margin-top: 70px;
+    color: black;
+}
+
+.whatpeoplesay .text h5{
+    color: orangered;
+    font-weight: 300;
+}
+.whatpeoplesay .text h4{
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.whatpeoplesay .comments img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.whatpeoplesay .comments .comment1{
+    padding-left: 200px;
+}
+
+.whatpeoplesay .comments .comment2{
+    padding-right: 200px;
+}
+
+.whatpeoplesay .comments p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.whatpeoplesay .comments span{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*blog*/
+
+.blog{
+    margin-top: 150px;
+    padding: 0 160px;
+    color: black;
+}
+
+.blog .text{
+    margin: 80px 0;
+}
+
+.blog .text h5{
+    color: orangered;
+    font-weight: 300;
+}
+
+.blog .text h4{
+    font-size: 27px;
+    font-weight: 400;
+    
+}
+
+.blogimages{
+    overflow: hidden;
+}
+
+.b{
+    overflow: hidden;
+}
+
+.blogimages img{
+    transition: all 0.2s linear;
+}
+
+.blogimages img:hover{
+    transform: scale(1.1);
+}
+
+.blogimages h4{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.blogimages h6{
+    color: rgb(163, 163, 163);
+    font-weight: 200;
+}
+
+.blogimages span{
+    color: orangered;
+}

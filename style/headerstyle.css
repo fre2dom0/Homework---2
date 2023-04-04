@@ -1,0 +1,25 @@
+.contactSide{
+    width: 100%;
+    padding: 40px 170px 40px 155px;
+}
+
+.contact i{
+    font-size: 40px;
+    margin-right: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px orangered;
+}
+
+.contact .text h4{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact .text p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: gray;
+}

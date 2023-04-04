@@ -1,0 +1,39 @@
+.sabit{
+    background-color: rgb(243, 85, 27);
+    padding: 30px 0 30px 150px;
+    transition: all 0.2s ease-in;
+}
+
+.sabitOlmayan{
+    background-color: rgb(243, 85, 27);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 22px 0 22px 150px;
+    transition: all 0.2s ease-in;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 22px;
+}
+
+nav ul li .main{
+    color: black;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: all 0.2s linear;
+}
+
+nav ul li a:hover{
+    color: black;
+}
